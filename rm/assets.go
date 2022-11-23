@@ -23,6 +23,7 @@ type RepositoryItemAsset struct {
 	ID          string                       `json:"id"`
 	Repository  string                       `json:"repository"`
 	Format      string                       `json:"format"`
+	LastModified string                      `json:"lastModified"`
 	Checksum    repositoryItemAssetsChecksum `json:"checksum"`
 }
 
